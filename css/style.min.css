@@ -148,6 +148,15 @@ table {
 	background:url('../img/logout.png') no-repeat 0 0;
 }
 
+#youless-org {
+	position:absolute;
+	top:4px;
+	right:240px;
+	height:16px;
+	width:100px;
+	text-align:right;	
+}
+
 #topHeader
 a {
 	color:#fff;

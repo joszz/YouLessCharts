@@ -98,6 +98,7 @@
 		</div>
 		
 		<div id="topHeader">
+            <div id="youless-org"><a href="/youless/" target="_blank">YouLess admin</a></div>
 			<div id="settings"><a href="#" id="showSettings">Instellingen</a></div>
 			<div id="logout"><a href="?logout=1">Logout</a></div>
 		</div>
