@@ -1,0 +1,207 @@
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	body {
+		width: 712px;
+		padding: 48px 28px 60px;
+	}
+	
+	#cpkwhCounter{
+		display:none;
+	}
+	#wattCounter{
+		display:none;
+	}
+	#meter{
+		display:none;
+	}
+	#kwhCounter{
+		display:none;
+	}
+	#range{
+		display:none;
+	}
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 1280px) {
+	
+	body {
+		width: 252px;
+		padding: 48px 34px 60px;
+	}
+	
+	
+	#cpkwhCounter{
+		height:0px;
+		left: -999px;
+	}
+	#wattCounter{
+		height:0px;
+		left: -999px;
+	}
+	#meter{
+		height:0px;
+		left: -999px;
+	}
+	#kwhCounter{
+		height:0px;
+		left: -999px;
+	}
+	#range{
+		height:0px;
+		left: -999px;
+	}
+	
+
+	
+	
+	#overlay{
+		display:none;
+	}
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	body {
+		width: 436px;
+		padding: 36px 22px 48px;
+	}
+	
+	#cpkwhCounter{
+		display:none;
+	}
+	#wattCounter{
+		display:none;
+	}
+	#meter{
+		display:none;
+	}
+	#kwhCounter{
+		display:none;
+	}
+	#range{
+		display:none;
+	}
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+		width: 512px;
+		padding: 48px 28px 60px;
+	}
+	
+	#topHeader{
+		height:50px;
+	}
+
+	#header{
+		height:47px;
+	}
+	
+	
+	#logo{
+		height:0px;
+		display:none;
+	}	
+	
+	#menu{
+		top:0px;
+		height:0px;
+		left:11%;
+		right: 0px;
+	}	
+	
+	
+	#container{
+		height:0px;
+		left:0px;
+		top:88px;
+		right:0px;
+		}
+	
+	#history{
+		display:none;
+		height:420px;
+		min-width:500px;
+	}
+	
+	
+	
+	
+	#cpkwhCounter{
+		height:0px;
+		left: -999px;
+	}
+	#wattCounter{
+		height:0px;
+		left: -999px;
+	}
+	#meter{
+		height:0px;
+		left: -999px;
+	}
+	#kwhCounter{
+		height:0px;
+		left: -999px;
+	}
+	#range{
+		height:0px;
+		left: -999px;
+	}
+	
+	
+	#overlay{
+		display:none;
+	}
+	
+	
+	
+	
+
+	#loginForm{
+		left:-48%;
+		width:96%;
+	}
+	
+}
