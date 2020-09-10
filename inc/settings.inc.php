@@ -3,11 +3,11 @@
 
 // DB Settings
 define('DB_HOST', 'localhost');	
-define('DB_NAME', 'youless');
-define('DB_USER', 'youless');
-define('DB_PASS', 'Z5saN55LbHfbRMTr');
+define('DB_NAME', '');
+define('DB_USER', '');
+define('DB_PASS', '');
 
 // YouLess settings
-define('YL_ADDRESS', '192.168.1.50');
+define('YL_ADDRESS', '');
 define('YL_PASSWORD', '');
 ?>
